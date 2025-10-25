@@ -30,15 +30,22 @@ This project demonstrates real-time **speech recognition**, **natural language p
 ## 🖥️ Installation & Setup
 
 ### 1️⃣ Clone the Repository
+
 ```bash
 git clone https://github.com/mohitparashar310/AI-Voice-Assistant.git
 cd AI-Voice-Assistant
+```
 
-2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-3️⃣ Run the App
+### 3️⃣ Run the App
+
+```bash
 streamlit run ai_voice_assistant_ui.py
-
+```
 
 ⚠️ Make sure Ollama is running locally and your model (e.g., mistral or llama3) is available.
